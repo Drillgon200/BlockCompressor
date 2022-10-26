@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\Compress.cpp" />
+    <ClCompile Include="src\puff.cpp" />
+    <ClCompile Include="src\JobSystem.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\puff.h" />
+    <ClInclude Include="src\stb_image.h" />
+    <ClInclude Include="src\BC1Compress.h" />
+    <ClInclude Include="src\FileUtil.h" />
+    <ClInclude Include="src\CompressionUtil.h" />
+    <ClInclude Include="src\BC2Compress.h" />
+    <ClInclude Include="src\BC3Compress.h" />
+    <ClInclude Include="src\BC4Compress.h" />
+    <ClInclude Include="src\BC5Compress.h" />
+    <ClInclude Include="src\BC7Compress.h" />
+    <ClInclude Include="src\BC7Tables.h" />
+    <ClInclude Include="src\SIMDUtil.h" />
+    <ClInclude Include="src\JobSystem.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <MASM Include="src\ContextUtils.asm" />
+  </ItemGroup>
+</Project>
